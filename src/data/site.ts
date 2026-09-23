@@ -13,3 +13,12 @@ export const navItems = [
   { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ];
+
+// Convenience export: update links and CV path here.
+export const siteConfig = {
+  socialLinks,
+  cvPdfUrl,
+  navItems,
+};
+
+export default siteConfig;
