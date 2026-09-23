@@ -15,7 +15,8 @@ export default function Contact() {
         <SectionHeading title="Let&apos;s connect." align="center" />
 
         <div className="mx-auto mt-8 max-w-3xl text-center text-base leading-8 text-muted sm:text-lg">
-          I&apos;m open to internships, student projects, international opportunities and collaborations.
+          I&apos;m open to internships, student projects, digital collaborations, and opportunities in cybersecurity,
+          technology and project coordination.
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">

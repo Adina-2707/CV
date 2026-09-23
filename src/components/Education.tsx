@@ -12,6 +12,10 @@ export default function Education() {
             <h3 className="mt-4 text-2xl font-semibold text-charcoal">Engineering College Light Academy</h3>
             <p className="mt-3 text-lg text-muted">Cybersecurity</p>
             <p className="mt-2 text-base text-muted">2024–2027</p>
+            <p className="mt-5 text-base text-muted">
+              Final-year student in a 3-year program with relevant coursework in cybersecurity, computer networks,
+              Linux, databases and web technologies.
+            </p>
           </div>
 
           <div className="rounded-[28px] border border-border bg-ivory-soft/80 p-7 shadow-soft">

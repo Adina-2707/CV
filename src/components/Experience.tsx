@@ -2,32 +2,32 @@ import SectionHeading from './SectionHeading';
 
 const experienceItems = [
   {
-    name: 'ENACTUS ENGINEERING COLLEGE',
+    name: 'Enactus Engineering College',
     role: 'Vice Captain | PR & Project Team',
-    period: 'Oct 2025 — Present',
+    period: 'Oct 2025–Present',
     description:
-      'Coordinate PR and project-related activities within a student entrepreneurship team. Plan content workflows, coordinate team members and contribute to student projects and competitions.',
+      'Coordinate PR and project-related activities within a student entrepreneurship team, plan and review social media content and weekly workflows, coordinate tasks between content, design and strategy team members, and contribute to student entrepreneurship projects, presentations and competitions. Participated in the development of EcoBrew, an environmental project focused on repurposing used coffee grounds and organic waste.',
   },
   {
-    name: 'SMM — PERSONAL BRAND',
-    role: 'SMM Specialist',
-    period: '2026 — Present',
+    name: 'SMM Specialist — Personal Brand',
+    role: 'Social Media Specialist',
+    period: '2026–Present',
     description:
-      'Manage social media content and weekly publishing workflows, create Reels and posts, develop content ideas and coordinate content production with the client.',
+      'Manage social media content and weekly publishing workflow, create Reels, posts and content plans, coordinate weekly work with the client, develop content ideas and visual concepts, and manage content production from planning to publication.',
   },
   {
-    name: 'KELECHEK NOVA EDUCATIONAL CENTER',
-    role: 'SMM Specialist',
+    name: 'SMM Specialist — KeLechek Nova Educational Center',
+    role: 'Social Media Specialist',
     period: '2026',
     description:
-      'Managed daily Stories, developed Reels and promotional content, edited videos and supported the promotion of educational programs.',
+      'Managed daily social media Stories, created content for students and parents, developed ideas for Reels and promotional content, prepared and edited video content, and supported promotion of educational programs and courses.',
   },
   {
-    name: 'VI WORLD NOMAD GAMES 2026',
+    name: 'VI World Nomad Games 2026',
     role: 'Volunteer',
     period: '2026',
     description:
-      'Participated as a volunteer at the VI World Nomad Games 2026, supporting event-related activities, communication and coordination as part of a volunteer team.',
+      'Participated as a volunteer at the VI World Nomad Games 2026, supported event-related activities and coordination, communicated with participants and visitors, and worked as part of a volunteer team in a large-scale international sporting and cultural event.',
   },
 ];
 
@@ -35,7 +35,7 @@ export default function Experience() {
   return (
     <section id="experience" className="scroll-mt-24 border-y border-border bg-white/20 px-5 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading title="Experience" />
+        <SectionHeading title="Experience & Leadership" />
 
         <div className="relative mt-12 space-y-8 before:absolute before:left-[11px] before:top-2 before:h-[calc(100%-1rem)] before:w-px before:bg-border lg:ml-8">
           {experienceItems.map((item) => (

@@ -1,4 +1,4 @@
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, Mail } from 'lucide-react';
 import { cvPdfUrl } from '../data/site';
 
 export default function Hero() {
@@ -8,11 +8,11 @@ export default function Hero() {
         <div className="max-w-3xl animate-reveal">
           <div className="mb-6 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.25em] text-gold">
             <span className="h-px w-8 bg-gold" />
-            Cybersecurity Student
+            Cybersecurity Student | Project Management | Technical &amp; Digital Projects
           </div>
 
           <h1 className="text-5xl font-semibold leading-[0.94] tracking-[-0.06em] text-charcoal sm:text-6xl lg:text-7xl">
-            Hi, I&apos;m Adina.
+            BOLOT KYZY ADINA
           </h1>
 
           <p className="mt-5 text-xl font-medium text-charcoal sm:text-2xl">
@@ -26,8 +26,8 @@ export default function Hero() {
           </p>
 
           <p className="mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">
-            Third-year Cybersecurity student building experience across technology, student projects,
-            digital media and team leadership.
+            Third-year Cybersecurity student at Engineering College Light Academy with hands-on experience
+            in student technology projects, project coordination, social media management and team leadership.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -40,12 +40,10 @@ export default function Hero() {
             </a>
             <a
               href={cvPdfUrl}
-              target="_blank"
-              rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-border bg-white/40 px-6 py-3 text-sm font-medium text-charcoal transition hover:border-gold/60 hover:text-gold"
             >
-              Download CV
-              <Download size={16} />
+              Contact me
+              <Mail size={16} />
             </a>
           </div>
         </div>

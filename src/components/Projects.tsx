@@ -3,7 +3,7 @@ import SectionHeading from './SectionHeading';
 
 const projects = [
   {
-    title: 'DEV CLUB HUB',
+    title: 'Dev Club Hub',
     category: 'Technical Project · Project Management',
     description: 'Student platform for students, mentors and companies.',
     role: 'Project Management & Technical Coordination',
@@ -13,9 +13,9 @@ const projects = [
     accent: 'border-gold/40 bg-gradient-to-br from-ivory-soft to-white/60',
   },
   {
-    title: 'ECOBREW',
-    category: 'Enactus · Social Entrepreneurship',
-    description: 'An environmental project focused on repurposing used coffee grounds and organic waste into soil-improving products.',
+    title: 'EcoBrew',
+    category: 'Enactus · Environmental Project',
+    description: 'An environmental project focused on repurposing used coffee grounds and organic waste.',
     role: 'Project Team · PR · Development',
     tech: [],
     linkLabel: 'Case study',
@@ -28,7 +28,7 @@ export default function Projects() {
   return (
     <section id="projects" className="scroll-mt-24 px-5 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading title="Projects" />
+        <SectionHeading title="Technical Projects" />
 
         <div className="mt-12 grid gap-8 lg:grid-cols-2">
           {projects.map((project) => (
@@ -39,7 +39,7 @@ export default function Projects() {
               <div className="flex items-center justify-between gap-4">
                 <span className="text-[11px] font-medium uppercase tracking-[0.22em] text-gold">{project.category}</span>
                 <span className="rounded-full border border-border bg-white/50 px-2 py-1 text-[10px] uppercase tracking-[0.18em] text-muted">
-                  {project.title === 'DEV CLUB HUB' ? '01' : '02'}
+                  {project.title === 'Dev Club Hub' ? '01' : '02'}
                 </span>
               </div>
 
@@ -76,7 +76,7 @@ export default function Projects() {
                   <ArrowUpRight size={16} />
                 </a>
 
-                {project.title === 'ECOBREW' ? (
+                {project.title === 'EcoBrew' ? (
                   <div className="flex h-24 w-32 items-center justify-center rounded-2xl border border-dashed border-border bg-white/30 text-xs uppercase tracking-[0.18em] text-muted">
                     Image
                   </div>

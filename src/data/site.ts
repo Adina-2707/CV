@@ -4,7 +4,7 @@ export const socialLinks = {
   linkedin: 'https://www.linkedin.com/',
 };
 
-export const cvPdfUrl = '/Adina_Bolot_kyzy_CV.pdf';
+export const cvPdfUrl = '#contact';
 
 export const navItems = [
   { label: 'About', href: '#about' },

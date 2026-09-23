@@ -11,11 +11,11 @@ const skillGroups = [
   },
   {
     title: 'Professional',
-    items: ['Project Management', 'Team Coordination', 'Communication', 'Problem Solving', 'Organization'],
+    items: ['Project Management', 'Team Coordination', 'Communication', 'Content Planning', 'Problem Solving'],
   },
   {
-    title: 'Digital',
-    items: ['Social Media Management', 'Content Planning', 'Reels', 'Video Editing', 'Visual Content'],
+    title: 'Additional',
+    items: ['Student leadership', 'Entrepreneurship competitions', 'International event volunteering', 'Educational & youth initiatives'],
   },
 ];
 
@@ -23,7 +23,7 @@ export default function Skills() {
   return (
     <section id="skills" className="scroll-mt-24 border-y border-border bg-white/20 px-5 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading title="Skills" />
+        <SectionHeading title="Technical Skills" />
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {skillGroups.map((group) => (
